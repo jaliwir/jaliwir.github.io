@@ -1,0 +1,67 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #faf7f4;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+header, footer {
+  text-align: center;
+  background: #f7c873;
+  padding: 1em 0;
+}
+main {
+  max-width: 1200px;
+  margin: 2em auto;
+  padding: 1em;
+  background: #fff;
+  border-radius: 8px;
+}
+#team-builder, #players {
+  margin-bottom: 2em;
+}
+#positions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+.position-card {
+  background: #ffecd2;
+  border: 1px solid #f7c873;
+  padding: 1em;
+  border-radius: 8px;
+  flex: 1 1 200px;
+  min-width: 150px;
+  text-align: center;
+}
+#player-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.player-card {
+  background: #e3f2fd;
+  border: 1px solid #90caf9;
+  padding: 1em;
+  border-radius: 8px;
+  width: 180px;
+  text-align: center;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+.player-card:hover {
+  box-shadow: 0 2px 8px rgba(33,150,243,0.15);
+}
+button {
+  background: #f7c873;
+  border: none;
+  padding: 0.75em 1.5em;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #f9b64b;
+}
